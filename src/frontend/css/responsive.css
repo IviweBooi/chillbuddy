@@ -1,0 +1,92 @@
+/* ChillBuddy Mental Health Chatbot - Responsive Design Styles
+ *
+ * This file contains:
+ * - Mobile-first responsive breakpoints
+ * - Tablet and desktop adaptations
+ * - Touch-friendly interface adjustments
+ * - Orientation change handling
+ * - Viewport-specific optimizations
+ */
+
+/* Mobile First Approach (Base styles for mobile) */
+/* TODO: Base mobile styles (already defined in other files) */
+/* TODO: Touch target sizing (minimum 44px) */
+/* TODO: Mobile-optimized spacing */
+/* TODO: Single-column layout */
+
+/* Small Mobile Devices (320px and up) */
+/* TODO: Extra small screen adjustments */
+/* TODO: Compact header for small screens */
+/* TODO: Reduced padding and margins */
+/* TODO: Smaller font sizes if needed */
+
+/* Large Mobile Devices (480px and up) */
+/* TODO: Slightly larger touch targets */
+/* TODO: Improved spacing */
+/* TODO: Better message bubble sizing */
+
+/* Tablet Portrait (768px and up) */
+/* TODO: Two-column layout introduction */
+/* TODO: Sidebar for resources/help */
+/* TODO: Larger chat interface */
+/* TODO: Improved navigation menu */
+/* TODO: Better use of horizontal space */
+
+/* Tablet Landscape (1024px and up) */
+/* TODO: Optimized landscape layout */
+/* TODO: Side-by-side content areas */
+/* TODO: Expanded navigation */
+/* TODO: Larger message bubbles */
+
+/* Desktop Small (1200px and up) */
+/* TODO: Desktop-optimized layout */
+/* TODO: Multi-column design */
+/* TODO: Hover effects for desktop */
+/* TODO: Keyboard shortcuts display */
+/* TODO: Desktop-specific navigation */
+
+/* Desktop Large (1440px and up) */
+/* TODO: Large screen optimizations */
+/* TODO: Maximum content width constraints */
+/* TODO: Enhanced spacing and typography */
+/* TODO: Advanced layout features */
+
+/* Ultra-wide Screens (1920px and up) */
+/* TODO: Ultra-wide layout adaptations */
+/* TODO: Content centering */
+/* TODO: Optimal reading width */
+
+/* Orientation Handling */
+/* TODO: Portrait orientation optimizations */
+/* TODO: Landscape orientation adjustments */
+/* TODO: Orientation change transitions */
+
+/* Touch Device Optimizations */
+/* TODO: Touch-friendly button sizing */
+/* TODO: Swipe gesture support */
+/* TODO: Touch feedback animations */
+/* TODO: Scroll behavior optimizations */
+
+/* High DPI/Retina Display Support */
+/* TODO: High-resolution image handling */
+/* TODO: Crisp icon rendering */
+/* TODO: Pixel-perfect borders */
+
+/* Print Media Queries */
+/* TODO: Print-optimized layout */
+/* TODO: Hide interactive elements */
+/* TODO: Optimize for black and white printing */
+
+/* Accessibility Media Queries */
+/* TODO: Reduced motion preferences */
+/* TODO: High contrast mode */
+/* TODO: Increased font size preferences */
+
+/* Container Queries (Future Enhancement) */
+/* TODO: Component-based responsive design */
+/* TODO: Container-specific adaptations */
+
+/* Performance Optimizations */
+/* TODO: Critical CSS for above-the-fold content */
+/* TODO: Lazy loading considerations */
+/* TODO: Efficient media query organization */

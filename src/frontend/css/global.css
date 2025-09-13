@@ -1,0 +1,54 @@
+/* ChillBuddy Mental Health Chatbot - Global Styles
+ *
+ * This file contains:
+ * - CSS Reset and normalization
+ * - Root variables (colors, fonts, spacing)
+ * - Base typography styles
+ * - Global utility classes
+ * - Accessibility styles
+ * - Animation definitions
+ */
+
+/* CSS Reset and Base Styles */
+/* TODO: Implement CSS reset */
+/* TODO: Set box-sizing to border-box for all elements */
+/* TODO: Remove default margins and paddings */
+
+/* Root Variables */
+/* TODO: Define color palette (primary, secondary, accent, neutral) */
+/* TODO: Define typography scale (font families, sizes, weights) */
+/* TODO: Define spacing scale (margins, paddings, gaps) */
+/* TODO: Define border radius values */
+/* TODO: Define shadow values */
+/* TODO: Define transition durations */
+
+/* Base Typography */
+/* TODO: Set base font family and size */
+/* TODO: Define heading styles (h1-h6) */
+/* TODO: Define paragraph and text styles */
+/* TODO: Define link styles */
+/* TODO: Define list styles */
+
+/* Global Utility Classes */
+/* TODO: Screen reader only class (.sr-only) */
+/* TODO: Visibility utilities (.hidden, .visible) */
+/* TODO: Spacing utilities (.m-*, .p-*) */
+/* TODO: Text alignment utilities (.text-center, .text-left, etc.) */
+/* TODO: Flexbox utilities (.flex, .flex-center, etc.) */
+/* TODO: Grid utilities */
+
+/* Accessibility Styles */
+/* TODO: Focus indicators */
+/* TODO: High contrast mode support */
+/* TODO: Reduced motion preferences */
+/* TODO: Skip links */
+
+/* Animation Definitions */
+/* TODO: Fade in/out animations */
+/* TODO: Slide animations */
+/* TODO: Typing indicator animation */
+/* TODO: Loading spinner animation */
+/* TODO: Pulse animation for notifications */
+
+/* Print Styles */
+/* TODO: Print-specific styles */

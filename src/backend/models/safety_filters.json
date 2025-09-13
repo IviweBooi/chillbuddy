@@ -1,0 +1,314 @@
+{
+  "crisis_detection": {
+    "suicide_keywords": {
+      "high_risk": [
+        "kill myself",
+        "end my life",
+        "suicide",
+        "want to die",
+        "better off dead",
+        "take my own life",
+        "don't want to live",
+        "planning to die",
+        "suicide plan",
+        "overdose",
+        "jump off",
+        "hang myself",
+        "shoot myself",
+        "cut my wrists"
+      ],
+      "medium_risk": [
+        "life isn't worth living",
+        "no point in living",
+        "wish I was dead",
+        "everyone would be better without me",
+        "can't go on",
+        "nothing to live for",
+        "tired of living",
+        "want it all to end",
+        "escape this pain",
+        "permanent solution"
+      ],
+      "low_risk": [
+        "feeling hopeless",
+        "don't see the point",
+        "everything is pointless",
+        "what's the use",
+        "giving up",
+        "can't take it anymore",
+        "overwhelmed",
+        "breaking point"
+      ]
+    },
+    "self_harm_keywords": {
+      "high_risk": [
+        "cut myself",
+        "hurt myself",
+        "self harm",
+        "self-harm",
+        "cutting",
+        "burning myself",
+        "hitting myself",
+        "scratching myself",
+        "punching walls",
+        "self injury",
+        "self-injury"
+      ],
+      "medium_risk": [
+        "want to hurt myself",
+        "urge to cut",
+        "need to feel pain",
+        "deserve to be hurt",
+        "punish myself",
+        "make myself bleed",
+        "physical pain",
+        "release the pain"
+      ]
+    },
+    "violence_keywords": {
+      "high_risk": [
+        "hurt someone",
+        "kill someone",
+        "murder",
+        "violent thoughts",
+        "want to attack",
+        "planning to hurt",
+        "revenge",
+        "make them pay",
+        "weapon",
+        "gun",
+        "knife"
+      ],
+      "medium_risk": [
+        "angry at everyone",
+        "hate everyone",
+        "they deserve it",
+        "violent fantasies",
+        "losing control",
+        "rage",
+        "furious"
+      ]
+    }
+  },
+  "inappropriate_content": {
+    "medical_advice": {
+      "blocked_phrases": [
+        "you should take",
+        "stop taking your medication",
+        "increase your dose",
+        "decrease your dose",
+        "this medication will",
+        "you don't need medication",
+        "medication is bad",
+        "natural cure",
+        "alternative to medication"
+      ],
+      "medical_terms": [
+        "diagnosis",
+        "prescribe",
+        "dosage",
+        "side effects",
+        "drug interaction",
+        "medical condition",
+        "symptoms indicate",
+        "you have",
+        "you suffer from"
+      ]
+    },
+    "harmful_advice": {
+      "substance_abuse": [
+        "drink alcohol",
+        "use drugs",
+        "get high",
+        "smoke weed",
+        "take pills",
+        "substance will help",
+        "alcohol helps",
+        "drugs make it better"
+      ],
+      "dangerous_activities": [
+        "risky behavior",
+        "dangerous activity",
+        "extreme sport",
+        "unsafe practice",
+        "reckless action"
+      ]
+    },
+    "personal_information": {
+      "requests_for_info": [
+        "what's your address",
+        "where do you live",
+        "phone number",
+        "real name",
+        "personal details",
+        "meet in person",
+        "send photos",
+        "share location"
+      ]
+    }
+  },
+  "response_filtering": {
+    "inappropriate_responses": {
+      "dismissive": [
+        "get over it",
+        "just think positive",
+        "it's not that bad",
+        "others have it worse",
+        "stop being dramatic",
+        "you're overreacting",
+        "just snap out of it",
+        "it's all in your head"
+      ],
+      "minimizing": [
+        "it's not a big deal",
+        "you'll be fine",
+        "don't worry about it",
+        "it could be worse",
+        "at least",
+        "just ignore it",
+        "move on"
+      ],
+      "harmful_suggestions": [
+        "you should hurt",
+        "end your life",
+        "give up",
+        "there's no hope",
+        "you're worthless",
+        "nobody cares",
+        "you're a burden"
+      ]
+    },
+    "quality_checks": {
+      "too_short": {
+        "min_length": 10,
+        "exceptions": ["Yes", "No", "Okay", "I understand", "Thank you"]
+      },
+      "too_long": {
+        "max_length": 300,
+        "warning_length": 250
+      },
+      "repetitive": {
+        "max_repeated_phrases": 2,
+        "check_similarity": true
+      }
+    }
+  },
+  "content_moderation": {
+    "profanity_filter": {
+      "enabled": true,
+      "severity_levels": {
+        "mild": ["damn", "hell", "crap"],
+        "moderate": ["shit", "bitch", "ass"],
+        "severe": ["fuck", "fucking", "motherfucker"]
+      },
+      "action": "flag_and_continue"
+    },
+    "hate_speech": {
+      "enabled": true,
+      "categories": [
+        "racial_slurs",
+        "homophobic_language",
+        "transphobic_language",
+        "religious_hatred",
+        "gender_based_hatred"
+      ],
+      "action": "block_and_redirect"
+    },
+    "spam_detection": {
+      "enabled": true,
+      "patterns": [
+        "repeated_characters",
+        "excessive_caps",
+        "promotional_content",
+        "external_links"
+      ],
+      "action": "flag_for_review"
+    }
+  },
+  "safety_responses": {
+    "crisis_intervention": {
+      "immediate_danger": "I'm very concerned about your safety. Please call emergency services at 10177 or go to your nearest emergency room immediately.",
+      "suicide_risk": "I'm worried about you and want to make sure you're safe. Please contact SADAG immediately at 0800 567 567 or SMS 31393. You don't have to go through this alone.",
+      "self_harm_risk": "I'm concerned about what you've shared. Your safety is important. Please consider reaching out to SADAG at 0800 567 567 for support.",
+      "violence_risk": "I'm concerned about these thoughts. It's important to talk to a mental health professional immediately. Please call SADAG at 0800 567 567."
+    },
+    "inappropriate_content": {
+      "medical_advice": "I care about your health, but I can't provide medical advice. Please speak with a healthcare professional about medical concerns.",
+      "harmful_advice": "I want to keep our conversation safe and supportive. Let's focus on healthy ways to cope with what you're experiencing.",
+      "personal_info": "For your safety, please don't share personal information. Let's keep our conversation focused on how I can support you."
+    },
+    "content_moderation": {
+      "profanity": "I understand you're feeling strongly about this. Let's focus on what's causing these intense feelings.",
+      "hate_speech": "I want to maintain a respectful and safe space for everyone. Let's redirect our conversation to how I can support you.",
+      "spam": "I'm here to have a meaningful conversation with you. How can I help you today?"
+    }
+  },
+  "escalation_protocols": {
+    "crisis_levels": {
+      "level_1_concern": {
+        "triggers": ["low_risk_keywords", "mild_distress"],
+        "response": "increased_support",
+        "monitoring": "standard"
+      },
+      "level_2_warning": {
+        "triggers": ["medium_risk_keywords", "moderate_distress"],
+        "response": "safety_check",
+        "monitoring": "enhanced"
+      },
+      "level_3_crisis": {
+        "triggers": ["high_risk_keywords", "immediate_danger"],
+        "response": "crisis_intervention",
+        "monitoring": "continuous"
+      }
+    },
+    "professional_referral": {
+      "immediate": ["suicide_plan", "violence_plan", "psychosis_indicators"],
+      "urgent": ["persistent_suicidal_thoughts", "severe_depression", "substance_abuse"],
+      "recommended": ["ongoing_distress", "relationship_issues", "work_stress"]
+    }
+  },
+  "south_african_context": {
+    "cultural_sensitivity": {
+      "languages": ["english", "afrikaans", "zulu", "xhosa", "sotho"],
+      "cultural_considerations": [
+        "ubuntu_philosophy",
+        "community_support",
+        "traditional_healing",
+        "religious_beliefs",
+        "family_dynamics"
+      ]
+    },
+    "local_resources": {
+      "crisis_lines": {
+        "sadag": "0800 567 567",
+        "sadag_sms": "31393",
+        "lifeline": "0861 322 322"
+      },
+      "emergency_services": {
+        "police": "10111",
+        "ambulance": "10177",
+        "general_emergency": "112"
+      }
+    }
+  },
+  "monitoring_and_logging": {
+    "safety_events": {
+      "log_crisis_triggers": true,
+      "log_inappropriate_content": true,
+      "log_safety_responses": true,
+      "anonymize_logs": true
+    },
+    "performance_metrics": {
+      "false_positive_rate": "track",
+      "false_negative_rate": "track",
+      "response_time": "track",
+      "user_satisfaction": "track"
+    },
+    "continuous_improvement": {
+      "update_keywords": "monthly",
+      "review_filters": "weekly",
+      "analyze_patterns": "daily",
+      "user_feedback": "continuous"
+    }
+  }
+}

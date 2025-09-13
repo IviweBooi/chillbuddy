@@ -1,0 +1,75 @@
+# ChillBuddy Mental Health Chatbot - Python Dependencies
+# 
+# Core Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-Session==0.5.0
+
+# AI/ML Libraries
+transformers==4.35.0
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+numpy==1.24.3
+scipy==1.11.3
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.7.2
+textblob==0.17.1
+
+# Data Handling
+pandas==2.1.1
+requests==2.31.0
+jsonschema==4.19.1
+
+# Security and Privacy
+cryptography==41.0.7
+bcrypt==4.0.1
+PyJWT==2.8.0
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.7
+markupsafe==2.1.3
+werkzeug==2.3.7
+
+# Development and Testing
+pytest==7.4.3
+pytest-flask==1.3.0
+flake8==6.1.0
+black==23.9.1
+
+# Monitoring and Logging
+logging==0.4.9.6
+
+# Date and Time
+python-dateutil==2.8.2
+pytz==2023.3
+
+# HTTP and API
+flask-restful==0.3.10
+marshmallow==3.20.1
+
+# Text Processing and Analysis
+re2==1.0.9
+fuzzy==1.2.2
+
+# Configuration Management
+pyyaml==6.0.1
+configparser==6.0.0
+
+# Performance
+gunicorn==21.2.0  # For production deployment
+
+# Optional: Advanced NLP Models
+sentence-transformers==2.2.2
+huggingface-hub==0.17.3
+
+# Optional: Caching
+redis==5.0.1
+Flask-Caching==2.1.0
+
+# Optional: Rate Limiting
+Flask-Limiter==3.5.0
+

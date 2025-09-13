@@ -1,0 +1,128 @@
+{
+  "system_errors": {
+    "model_loading_failed": [
+      "I'm having some technical difficulties right now. Please know that I'm here for you, and you can try again in a moment.",
+      "I'm experiencing some technical issues, but your wellbeing is important to me. Please try again shortly.",
+      "There seems to be a technical problem on my end. While I work on fixing it, remember that you're not alone."
+    ],
+    "response_generation_failed": [
+      "I'm having trouble finding the right words right now. Can you tell me a bit more about how you're feeling?",
+      "I want to give you a thoughtful response, but I'm having some technical difficulties. Could you share more about what's on your mind?",
+      "I'm experiencing some issues generating a response. Your feelings are valid, and I'd like to hear more about what you're going through."
+    ],
+    "timeout_error": [
+      "I'm taking longer than usual to respond. Your patience means a lot. How are you feeling right now?",
+      "I seem to be running slowly today. While I catch up, would you like to tell me more about what's happening?",
+      "I'm having some delays, but I want you to know that I'm here for you. What would you like to talk about?"
+    ],
+    "memory_error": [
+      "I'm having some memory issues right now, but I'm still here to support you. How can I help?",
+      "I might not remember our earlier conversation perfectly, but I'm focused on how you're feeling right now.",
+      "I'm experiencing some technical difficulties with my memory, but your wellbeing is my priority. How are you doing?"
+    ]
+  },
+  "safety_triggers": {
+    "inappropriate_content_detected": [
+      "I want to keep our conversation supportive and safe. Let's focus on how I can help you feel better.",
+      "I'm here to provide a safe space for you. How are you feeling, and what kind of support would be helpful?",
+      "Let's keep our conversation positive and supportive. What's been on your mind lately?"
+    ],
+    "crisis_intervention_needed": [
+      "I'm concerned about what you've shared. Your safety is the most important thing right now. Please consider reaching out to a crisis helpline: SADAG 0800 567 567 or SMS 31393.",
+      "What you're going through sounds really difficult. Please know that help is available. You can contact the South African Depression and Anxiety Group at 0800 567 567.",
+      "I'm worried about you and want to make sure you're safe. Please consider calling a crisis helpline immediately: SADAG 0800 567 567. You don't have to go through this alone."
+    ],
+    "medical_advice_requested": [
+      "I care about your health, but I can't provide medical advice. Please consider speaking with a healthcare professional or calling your doctor.",
+      "For medical concerns, it's important to speak with a qualified healthcare provider. I'm here to support you emotionally.",
+      "I'm not qualified to give medical advice, but I encourage you to reach out to a healthcare professional. How are you feeling emotionally?"
+    ]
+  },
+  "conversation_starters": {
+    "general_greeting": [
+      "Hello! I'm ChillBuddy, your mental health support companion. How are you feeling today?",
+      "Hi there! I'm here to listen and support you. What's on your mind?",
+      "Welcome! I'm ChillBuddy, and I'm here to help you through whatever you're experiencing. How can I support you today?"
+    ],
+    "returning_user": [
+      "Welcome back! I'm glad you're here. How have you been feeling since we last talked?",
+      "It's good to see you again! How are things going for you today?",
+      "Hello again! I'm here and ready to listen. What would you like to talk about?"
+    ],
+    "first_time_user": [
+      "Welcome to ChillBuddy! I'm here to provide mental health support and be a listening ear. This is a safe space where you can share how you're feeling.",
+      "Hi! I'm ChillBuddy, your mental health companion. I'm here to listen, support, and help you work through whatever you're experiencing.",
+      "Welcome! I'm designed to provide mental health support in a safe, non-judgmental environment. How are you feeling today?"
+    ]
+  },
+  "general_support": {
+    "active_listening": [
+      "I hear you, and what you're feeling is valid. Can you tell me more about that?",
+      "That sounds really difficult. I'm here to listen. How long have you been feeling this way?",
+      "Thank you for sharing that with me. Your feelings matter. What else is on your mind?",
+      "I can understand why that would be challenging. You're not alone in this. How are you coping?"
+    ],
+    "validation": [
+      "Your feelings are completely valid, and it's okay to feel this way.",
+      "What you're experiencing is real and important. Thank you for trusting me with this.",
+      "It takes courage to share how you're feeling. I'm glad you're here.",
+      "You're being really brave by talking about this. Your emotions are valid."
+    ],
+    "encouragement": [
+      "You've taken an important step by reaching out. That shows real strength.",
+      "I believe in your ability to get through this. You're stronger than you know.",
+      "Taking care of your mental health is important, and you're doing that by being here.",
+      "Every small step forward matters. You're doing the best you can."
+    ]
+  },
+  "coping_strategies": {
+    "breathing_exercises": [
+      "When feeling overwhelmed, try the 4-7-8 breathing technique: breathe in for 4 counts, hold for 7, exhale for 8. Would you like to try this together?",
+      "Deep breathing can help calm your mind. Try breathing in slowly through your nose and out through your mouth. How does that feel?",
+      "Let's focus on your breathing for a moment. Take a slow, deep breath in... and slowly let it out. How are you feeling?"
+    ],
+    "grounding_techniques": [
+      "Try the 5-4-3-2-1 grounding technique: name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste.",
+      "Grounding can help when you feel overwhelmed. Can you tell me about your surroundings? What do you see and hear around you?",
+      "Let's ground ourselves in the present moment. What are three things you can see right now?"
+    ],
+    "self_care_reminders": [
+      "Remember to be kind to yourself. You deserve the same compassion you'd show a good friend.",
+      "Have you taken care of your basic needs today? Sometimes eating, drinking water, or resting can help us feel better.",
+      "Self-care isn't selfish. What's one small thing you could do for yourself today?"
+    ]
+  },
+  "session_endings": {
+    "positive_closure": [
+      "Thank you for sharing with me today. Remember, you're not alone, and it's okay to reach out when you need support.",
+      "I'm glad we could talk today. Take care of yourself, and remember that your feelings are valid.",
+      "You've been really brave in sharing today. Remember to be gentle with yourself."
+    ],
+    "resource_reminders": [
+      "If you need immediate support, remember that SADAG is available 24/7 at 0800 567 567. Take care of yourself.",
+      "Before you go, remember that professional help is available if you need it. You deserve support and care.",
+      "Thank you for trusting me today. If you ever feel in crisis, please reach out to SADAG at 0800 567 567."
+    ]
+  },
+  "technical_difficulties": {
+    "general_error": [
+      "I'm experiencing some technical difficulties, but I want you to know that I'm here for you. How are you feeling?",
+      "There seems to be a technical issue on my end, but your wellbeing is important. Can you tell me what's on your mind?",
+      "I'm having some technical problems, but I'm still here to support you. What would you like to talk about?"
+    ],
+    "slow_response": [
+      "I'm taking a bit longer to respond than usual, but I'm thinking about what you've shared. Your patience means a lot.",
+      "I want to give you a thoughtful response, so I might be a bit slow today. How are you feeling right now?",
+      "I'm processing what you've told me carefully. While I do that, is there anything else you'd like to share?"
+    ]
+  },
+  "emergency_contacts": {
+    "south_africa": {
+      "sadag": "South African Depression and Anxiety Group: 0800 567 567 (24/7 helpline)",
+      "sadag_sms": "SADAG SMS line: 31393",
+      "lifeline": "Lifeline: 0861 322 322",
+      "emergency": "Emergency services: 10177 or 112",
+      "suicide_crisis": "Suicide Crisis Line: 0800 567 567"
+    }
+  }
+}

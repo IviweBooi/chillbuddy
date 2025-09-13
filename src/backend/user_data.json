@@ -1,0 +1,209 @@
+{
+  "_schema_version": "1.0",
+  "_description": "ChillBuddy user data storage - stores user progress, achievements, and preferences",
+  "_last_updated": "2024-01-01T00:00:00Z",
+  
+  "users": {
+    "example_user_123": {
+      "profile": {
+        "user_id": "example_user_123",
+        "created_at": "2024-01-01T00:00:00Z",
+        "last_active": "2024-01-01T00:00:00Z",
+        "timezone": "Africa/Johannesburg",
+        "preferences": {
+          "language": "en",
+          "theme": "light",
+          "notifications_enabled": true,
+          "crisis_monitoring": true,
+          "data_sharing_consent": false
+        }
+      },
+      
+      "gamification": {
+        "points": {
+          "total_points": 0,
+          "conversation_points": 0,
+          "challenge_points": 0,
+          "streak_points": 0,
+          "achievement_points": 0
+        },
+        
+        "streaks": {
+          "daily_conversation": {
+            "current_streak": 0,
+            "longest_streak": 0,
+            "last_conversation_date": null
+          },
+          "mood_tracking": {
+            "current_streak": 0,
+            "longest_streak": 0,
+            "last_mood_log_date": null
+          }
+        },
+        
+        "achievements": {
+          "unlocked": [],
+          "progress": {
+            "first_conversation": {
+              "completed": false,
+              "progress": 0,
+              "target": 1
+            },
+            "week_streak": {
+              "completed": false,
+              "progress": 0,
+              "target": 7
+            },
+            "mood_tracker": {
+              "completed": false,
+              "progress": 0,
+              "target": 10
+            }
+          }
+        },
+        
+        "badges": {
+          "earned": [],
+          "showcase": []
+        },
+        
+        "challenges": {
+          "daily": {
+            "current_date": null,
+            "challenge_id": null,
+            "completed": false,
+            "progress": 0
+          },
+          "weekly": {
+            "current_week": null,
+            "challenge_id": null,
+            "completed": false,
+            "progress": 0
+          },
+          "completed_challenges": []
+        }
+      },
+      
+      "mental_health": {
+        "mood_tracking": {
+          "entries": [],
+          "patterns": {
+            "average_mood": null,
+            "mood_trend": null,
+            "trigger_patterns": []
+          }
+        },
+        
+        "coping_strategies": {
+          "used_strategies": [],
+          "effective_strategies": [],
+          "preferred_categories": []
+        },
+        
+        "safety": {
+          "risk_level": "low",
+          "last_assessment": null,
+          "crisis_contacts": [],
+          "safety_plan": null
+        },
+        
+        "resources": {
+          "accessed_resources": [],
+          "bookmarked_resources": [],
+          "resource_ratings": {}
+        }
+      },
+      
+      "conversation_data": {
+        "total_conversations": 0,
+        "total_messages": 0,
+        "conversation_history": [],
+        "conversation_summaries": [],
+        "last_conversation_date": null
+      },
+      
+      "analytics": {
+        "engagement_score": 0,
+        "session_duration_avg": 0,
+        "feature_usage": {
+          "chat": 0,
+          "mood_tracking": 0,
+          "resources": 0,
+          "challenges": 0
+        },
+        "improvement_metrics": {
+          "mood_improvement": null,
+          "coping_skill_development": null,
+          "engagement_consistency": null
+        }
+      },
+      
+      "privacy": {
+        "consent_given": {
+          "data_collection": false,
+          "analytics": false,
+          "crisis_intervention": false,
+          "research_participation": false
+        },
+        "data_retention": {
+          "retention_period": "1_year",
+          "auto_delete_date": null
+        },
+        "anonymization": {
+          "anonymized": false,
+          "anonymization_date": null
+        }
+      }
+    }
+  },
+  
+  "global_stats": {
+    "total_users": 0,
+    "total_conversations": 0,
+    "total_achievements_unlocked": 0,
+    "average_engagement_score": 0,
+    "crisis_interventions": 0
+  },
+  
+  "achievement_definitions": {
+    "first_conversation": {
+      "name": "First Steps",
+      "description": "Started your first conversation with ChillBuddy",
+      "points": 10,
+      "category": "milestone"
+    },
+    "week_streak": {
+      "name": "Consistent Companion",
+      "description": "Maintained a 7-day conversation streak",
+      "points": 50,
+      "category": "engagement"
+    },
+    "mood_tracker": {
+      "name": "Mood Master",
+      "description": "Logged your mood 10 times",
+      "points": 30,
+      "category": "wellness"
+    }
+  },
+  
+  "challenge_templates": {
+    "daily_mood_check": {
+      "name": "Daily Mood Check",
+      "description": "Log your mood for today",
+      "points": 5,
+      "category": "wellness"
+    },
+    "gratitude_practice": {
+      "name": "Gratitude Practice",
+      "description": "Share three things you're grateful for",
+      "points": 10,
+      "category": "positivity"
+    },
+    "breathing_exercise": {
+      "name": "Breathing Exercise",
+      "description": "Complete a 5-minute breathing exercise",
+      "points": 15,
+      "category": "coping"
+    }
+  }
+}

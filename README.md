@@ -217,9 +217,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙌 Acknowledgments
 
 - South African Intervarsity Hackathon 2025 organizers
-- Mental health professionals who provided guidance
 - Open source community for tools and libraries
-- Beta testers and early users for feedback
+- My AI coding assistant, Trae
 
 ---
 

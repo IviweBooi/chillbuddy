@@ -1,86 +1,20 @@
-/* ChillBuddy Mental Health Chatbot - Stars and Decorative Elements
- *
- * This file contains:
- * - Star rating systems
- * - Decorative star backgrounds
- * - Achievement stars and badges
- * - Animated star effects
- * - Mood tracking star indicators
- * - Progress celebration stars
- */
+/*=============================================
+=            Starry Night Effect            =
+=============================================*/
 
-/* Star Rating System */
-/* TODO: Star rating container layout */
-/* TODO: Individual star styling (filled, empty, half) */
-/* TODO: Star hover effects */
-/* TODO: Star selection animations */
-/* TODO: Rating display (read-only vs interactive) */
+#stars-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Position behind all content */
+    opacity: 0;
+    pointer-events: none; /* Ensure it's not interactive */
+    transition: opacity 1.5s ease-in-out; /* A slow, graceful fade */
+}
 
-/* Decorative Background Stars */
-/* TODO: Subtle background star pattern */
-/* TODO: Animated twinkling effect */
-/* TODO: Parallax star movement */
-/* TODO: Constellation patterns */
-/* TODO: Night sky gradient background */
-
-/* Achievement Stars and Badges */
-/* TODO: Achievement star styling */
-/* TODO: Badge container and positioning */
-/* TODO: Star unlock animations */
-/* TODO: Progress milestone stars */
-/* TODO: Celebration burst effects */
-
-/* Mood Tracking Stars */
-/* TODO: Mood rating star colors */
-/* TODO: Emotional state indicators */
-/* TODO: Mood history star display */
-/* TODO: Trend visualization with stars */
-
-/* Interactive Star Elements */
-/* TODO: Clickable star buttons */
-/* TODO: Star feedback animations */
-/* TODO: Loading states with stars */
-/* TODO: Star-based navigation elements */
-
-/* Star Animations */
-/* TODO: Twinkle animation keyframes */
-/* TODO: Shooting star effect */
-/* TODO: Star appearance/disappearance */
-/* TODO: Pulsing star animation */
-/* TODO: Star rotation effects */
-
-/* Star Sizes and Variants */
-/* TODO: Small stars (decorative) */
-/* TODO: Medium stars (interactive) */
-/* TODO: Large stars (prominent features) */
-/* TODO: Micro stars (subtle accents) */
-
-/* Star Colors and Themes */
-/* TODO: Gold/yellow stars (positive) */
-/* TODO: Blue stars (calm/peaceful) */
-/* TODO: Purple stars (creative/inspiring) */
-/* TODO: Silver stars (neutral/secondary) */
-/* TODO: Rainbow stars (celebration) */
-
-/* Accessibility for Stars */
-/* TODO: Screen reader descriptions */
-/* TODO: High contrast star variants */
-/* TODO: Keyboard navigation for star ratings */
-/* TODO: Focus indicators for interactive stars */
-
-/* Performance Optimizations */
-/* TODO: CSS-only star shapes (no images) */
-/* TODO: Efficient animation performance */
-/* TODO: Reduced motion alternatives */
-
-/* Star Positioning and Layout */
-/* TODO: Absolute positioning for decorative stars */
-/* TODO: Flexbox layouts for star ratings */
-/* TODO: Grid layouts for star collections */
-/* TODO: Responsive star sizing */
-
-/* Special Effects */
-/* TODO: Star trail effects */
-/* TODO: Glowing star halos */
-/* TODO: Star reflection effects */
-/* TODO: 3D star transformations */
+/* The 'active' class is added by JS after inactivity in dark mode */
+body.dark-theme #stars-canvas.active {
+    opacity: 1;
+}

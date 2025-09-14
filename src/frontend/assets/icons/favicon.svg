@@ -1,0 +1,11 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="48" fill="rgb(79, 60, 255)"/>
+  <g stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- C for Chill -->
+    <path d="M30 65 A 15 15 0 1 1 30 35"/>
+    <!-- B for Buddy -->
+    <path d="M50 35 V 65 M 50 35 A 7 7 0 0 1 50 50 M 50 50 A 7 7 0 0 1 50 65"/>
+    <!-- Heart symbol for mental health -->
+    <path d="M65 42 C 65 38, 68 35, 72 35 C 76 35, 79 38, 79 42 C 79 46, 72 53, 72 53 C 72 53, 65 46, 65 42 Z" fill="white" stroke="none"/>
+  </g>
+</svg>

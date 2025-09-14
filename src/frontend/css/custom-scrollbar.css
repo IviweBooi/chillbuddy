@@ -1,0 +1,240 @@
+/* Custom Scrollbar Styles for ChillBuddy */
+
+/* Global Scrollbar Styling */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--brand-primary, #667eea) rgba(0, 0, 0, 0.1);
+}
+
+/* Webkit Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, var(--brand-primary, #667eea) 0%, var(--brand-secondary, #764ba2) 100%);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(135deg, #4f63c6 0%, #5e3a7e 100%);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Thin Scrollbar for Compact Areas */
+.thin-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--brand-primary, #667eea);
+    border: none;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #5a6fd8;
+    box-shadow: 0 1px 4px rgba(102, 126, 234, 0.4);
+}
+
+/* Chat Area Custom Scrollbar */
+.chat-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: rgba(102, 126, 234, 0.6);
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(102, 126, 234, 0.8);
+}
+
+/* Modal Content Scrollbar */
+.modal-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    margin: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--brand-primary, #667eea) 0%, rgba(102, 126, 234, 0.7) 100%);
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #5a6fd8 0%, rgba(90, 111, 216, 0.8) 100%);
+    box-shadow: 0 2px 6px rgba(102, 126, 234, 0.25);
+}
+
+/* Sidebar Scrollbar Enhancement */
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2.5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2.5px;
+    transition: all 0.2s ease;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Progress Dashboard Scrollbar */
+.progress-dashboard::-webkit-scrollbar {
+    width: 8px;
+}
+
+.progress-dashboard::-webkit-scrollbar-track {
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 4px;
+}
+
+.progress-dashboard::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.progress-dashboard::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #5a6fd8, #6a4190);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Badge Gallery Scrollbar */
+.badge-gallery::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.badge-gallery::-webkit-scrollbar-track {
+    background: rgba(102, 126, 234, 0.05);
+    border-radius: 3px;
+}
+
+.badge-gallery::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle, var(--brand-primary, #667eea) 0%, var(--brand-secondary, #764ba2) 100%);
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.badge-gallery::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(circle, #5a6fd8 0%, #6a4190 100%);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.4), 0 2px 4px rgba(102, 126, 234, 0.2);
+}
+
+/* Dark Theme Scrollbar */
+.dark-theme ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, rgba(90, 111, 216, 0.9) 0%, rgba(106, 65, 144, 0.9) 100%);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+}
+
+/* Animated Scrollbar for Special Sections */
+.animated-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #667eea, #764ba2, #667eea, #764ba2);
+    background-size: 400% 400%;
+    animation: scrollbarGradient 3s ease infinite;
+}
+
+@keyframes scrollbarGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Responsive Scrollbar */
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .thin-scrollbar::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border: none;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    ::-webkit-scrollbar-thumb {
+        background: #000;
+        border: 2px solid #fff;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #fff;
+        border: 1px solid #000;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    ::-webkit-scrollbar-thumb {
+        transition: none;
+        animation: none;
+    }
+    
+    .animated-scrollbar::-webkit-scrollbar-thumb {
+        animation: none;
+        background: var(--brand-primary, #667eea);
+    }
+}

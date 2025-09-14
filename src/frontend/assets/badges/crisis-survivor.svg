@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+  
+  <!-- Life preserver ring -->
+  <circle cx="16" cy="16" r="8" fill="#FFF" stroke="#F87171" stroke-width="1"/>
+  <circle cx="16" cy="16" r="4" fill="#EF4444"/>
+  
+  <!-- Life preserver segments -->
+  <rect x="15" y="8" width="2" height="3" fill="#EF4444" rx="1"/>
+  <rect x="15" y="21" width="2" height="3" fill="#EF4444" rx="1"/>
+  <rect x="8" y="15" width="3" height="2" fill="#EF4444" rx="1"/>
+  <rect x="21" y="15" width="3" height="2" fill="#EF4444" rx="1"/>
+  
+  <!-- Cross symbol in center -->
+  <path d="M14 16H18M16 14V18" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Support hands -->
+  <path d="M10 10C9 11 9 12 10 13C11 12 11 11 10 10Z" fill="#FFF" opacity="0.8"/>
+  <path d="M22 10C23 11 23 12 22 13C21 12 21 11 22 10Z" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Glow effect -->
+  <circle cx="16" cy="16" r="12" fill="none" stroke="#FCA5A5" stroke-width="1" opacity="0.6"/>
+</svg>

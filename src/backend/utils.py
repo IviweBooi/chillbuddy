@@ -19,7 +19,17 @@ from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Any, Optional, Union, Tuple
 from functools import wraps
 from urllib.parse import urlparse
-import bleach
+# import bleach  # Temporarily disabled due to installation issues
+
+# Simple replacement for bleach.clean functionality
+def simple_clean(text, tags=None, attributes=None, strip=True):
+    """Simple text sanitization as temporary replacement for bleach.clean"""
+    import re
+    # Remove HTML tags
+    clean_text = re.sub(r'<[^>]+>', '', str(text))
+    # Remove potentially dangerous characters
+    clean_text = re.sub(r'[<>"\']', '', clean_text)
+    return clean_text.strip()
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask import jsonify, request
 import uuid
@@ -265,7 +275,7 @@ def sanitize_html(html_content: str) -> str:
     allowed_tags = ['p', 'br', 'strong', 'em', 'u', 'ol', 'ul', 'li']
     allowed_attributes = {}
     
-    return bleach.clean(html_content, tags=allowed_tags, attributes=allowed_attributes, strip=True)
+    return simple_clean(html_content, tags=allowed_tags, attributes=allowed_attributes, strip=True)
 
 # Security Utilities
 

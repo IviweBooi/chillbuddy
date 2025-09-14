@@ -550,10 +550,10 @@ For support and questions:
 
 ## Acknowledgments
 
-- Mental health professionals who provided guidance
 - South African mental health organizations
 - Open source libraries and frameworks used
-- Contributors and testers
+- My AI coding assistant, Trae
+
 
 ---
 

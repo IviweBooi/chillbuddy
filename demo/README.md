@@ -10,7 +10,7 @@ This folder contains all demonstration materials for ChillBuddy, including video
 Our comprehensive 7-minute demo showcasing all ChillBuddy features
 
 
-![ChillBuddy Demo Video](https://youtu.be/I66oMRZF6lw) I've been waiting more than an hour for the video to upload on youtube and google drive to copy any link but i thing due to network issues its taking a really long time
+[🎥 Watch the ChillBuddy Demo Video](https://youtu.be/I66oMRZF6lw)
 
 
 
